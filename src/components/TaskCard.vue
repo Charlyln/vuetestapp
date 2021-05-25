@@ -28,10 +28,10 @@ export default {
   },
   methods: {
     toggleTodo: function (id) {
-      this.$store.commit("outputs/TOGGLE_TODO", id);
+      this.$store.commit("TOGGLE_TODO", id);
     },
     deleteTodo: function (id) {
-      this.$store.commit("outputs/DELETE_TODO", id);
+      this.$store.commit("DELETE_TODO", id);
     },
   },
 };

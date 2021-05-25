@@ -45,7 +45,7 @@ export default {
           title: this.title,
           content: this.content,
         };
-        this.$store.commit("outputs/ADD_TODO", payload);
+        this.$store.commit("ADD_TODO", payload);
         this.title = "";
         this.content = "";
       }

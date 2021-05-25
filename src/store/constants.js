@@ -1,6 +1,4 @@
-export const outputsItems = [{ value: 1 }, { value: 2 }, { value: 3 }];
-
-export const listOfOutputs = [
+export const listOfTodos = [
   {
     id: 1,
     title: "output title",

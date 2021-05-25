@@ -11,19 +11,15 @@ const routes = [
     component: Home,
   },
   {
-    path: "/todolist",
-    name: "ToDoList",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    path: "/settings",
+    name: "Settings",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/ToDoList.vue"),
+      import(/* webpackChunkName: "about" */ "../views/Settings.vue"),
   },
 ];
 
 const router = new VueRouter({
   mode: "history",
-  base: process.env.BASE_URL,
   routes,
 });
 

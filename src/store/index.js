@@ -1,13 +1,13 @@
 import Vue from "vue";
 import Vuex from "vuex";
 
-import outputsModule from "../components/outputs/store.module";
+import todosModule from "./store.module";
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   modules: {
-    outputs: outputsModule,
+    todo: todosModule,
   },
   mutations: {},
   actions: {},
